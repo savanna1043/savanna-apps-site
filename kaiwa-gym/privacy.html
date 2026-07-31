@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>プライバシーポリシー｜会話ジム</title>
+<style>
+  body { font-family: -apple-system, "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+         max-width: 720px; margin: 0 auto; padding: 40px 20px; line-height: 1.9; color: #222; }
+  h1 { color: #3949AB; font-size: 24px; }
+  h2 { color: #303F9F; font-size: 18px; margin-top: 32px; }
+  a { color: #3949AB; }
+  .date { color: #888; font-size: 14px; }
+  footer { margin-top: 48px; font-size: 13px; color: #888; }
+</style>
+</head>
+<body>
+  <h1>プライバシーポリシー</h1>
+  <p><strong>「会話ジム - AIと話す練習」プライバシーポリシー</strong></p>
+  <p class="date">制定日: 2026年7月28日</p>
+
+  <h2>基本方針</h2>
+  <p>「会話ジム」(以下「本アプリ」)は、AIとの音声通話による会話練習を提供するアプリです。本アプリの性質上、他の開発者アプリとは異なり音声データを外部サービスに送信して処理します。本ポリシーでは、その内容を具体的にご説明します。</p>
+
+  <h2>収集する情報</h2>
+  <ul>
+    <li><strong>匿名ID</strong>: 会員登録は不要です。初回起動時に端末ごとの匿名IDを自動発行し、練習時間の残高管理にのみ使用します。氏名・メールアドレス等の個人情報とは紐付きません。</li>
+    <li><strong>音声データ</strong>: AIとの通話中、マイクの音声はリアルタイムでOpenAI, L.L.C.(米国)のAPIに送信され、AIの応答生成のために処理されます。本アプリの開発者は音声そのものを保存しません。</li>
+    <li><strong>会話の文字起こし・利用状況</strong>: 通話内容は自動で文字起こしされ、練習後の講評(AIコーチのフィードバック)生成のためにOpenAIへ一時的に送信されます。開発者のサーバー(Cloudflare Workers)は文字起こしの内容を保存せず、フィードバック生成後は保持しません。会話メトリクス(応答速度・沈黙時間など)や利用時間の残高は、匿名IDに紐付けて開発者のデータベース(Google Firebase)に保存されます。</li>
+    <li><strong>購入情報</strong>: アプリ内課金(練習時間チケット)をご購入いただいた際、Appleから発行される購入情報(商品ID・取引ID)を、二重付与防止のためデータベースに保存します。決済処理自体はAppleが行い、開発者がクレジットカード情報等を取得することはありません。</li>
+  </ul>
+
+  <h2>収集しない情報</h2>
+  <p>氏名、メールアドレス、電話番号、位置情報は収集しません。広告は表示しないため、広告目的でのトラッキングも行いません(App Trackingの許諾を求めることはありません)。</p>
+
+  <h2>第三者への提供・委託</h2>
+  <p>本アプリは、以下のサービスに情報を送信・委託しています。</p>
+  <ul>
+    <li><strong>OpenAI, L.L.C.</strong>(音声のAI処理・会話講評の生成): <a href="https://openai.com/ja-JP/policies/privacy-policy/">OpenAIプライバシーポリシー</a></li>
+    <li><strong>Google Firebase</strong>(匿名IDによる認証・残高データの保存): <a href="https://firebase.google.com/support/privacy">Firebaseプライバシーとセキュリティ</a></li>
+    <li><strong>Cloudflare, Inc.</strong>(通信の中継サーバー): <a href="https://www.cloudflare.com/privacypolicy/">Cloudflareプライバシーポリシー</a></li>
+  </ul>
+  <p>これら以外の第三者(広告事業者等)への情報提供は行いません。</p>
+
+  <h2>データの保持・削除</h2>
+  <p>会話の音声・文字起こしは、AIの応答・講評生成の処理が完了すると開発者側では保持されません。匿名IDに紐付く残高情報は、アプリをご利用いただいている間保持されます。削除をご希望の場合は下記お問い合わせ先までご連絡ください。</p>
+
+  <h2>アプリ内課金について</h2>
+  <p>本アプリには消耗型のアプリ内課金(練習時間チケット)があります。決済はAppleのApp Storeを通じて処理されます。</p>
+
+  <h2>お子様のご利用について</h2>
+  <p>本アプリは一般向けのコミュニケーション練習アプリであり、子ども向けを意図したものではありません。</p>
+
+  <h2>ポリシーの変更</h2>
+  <p>本ポリシーは、機能追加等に応じて変更されることがあります。重要な変更がある場合は、アプリ内またはストアページでお知らせします。</p>
+
+  <h2>お問い合わせ</h2>
+  <p>開発者: sakoshi<br>メール: <a href="mailto:sakoshi199704@gmail.com">sakoshi199704@gmail.com</a></p>
+
+  <footer>© 2026 Savanna Apps</footer>
+</body>
+</html>
