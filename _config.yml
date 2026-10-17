@@ -1,0 +1,3 @@
+# GitHub Pages(Jekyll)の設定。リポジトリ内の引き継ぎメモはサイトとして公開しない
+exclude:
+  - HANDOFF.md
